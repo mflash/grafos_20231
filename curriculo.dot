@@ -1,0 +1,19 @@
+digraph {
+rankdir = LR;
+node [shape = circle];
+"Algorithms" -> "Theoretical CS"
+"Algorithms" -> "Databases"
+"Algorithms" -> "Scientific Computing"
+"Introduction to CS" -> "Advanced Programming"
+"Introduction to CS" -> "Algorithms"
+"Advanced Programming" -> "Scientific Computing"
+"Scientific Computing" -> "Computational Biology"
+"Theoretical CS" -> "Computational Biology"
+"Theoretical CS" -> "Artificial Intelligence"
+"Linear Algebra" -> "Theoretical CS"
+"Calculus" -> "Linear Algebra"
+"Artificial Intelligence" -> "Neural Networks"
+"Artificial Intelligence" -> "Robotics"
+"Artificial Intelligence" -> "Machine Learning"
+"Machine Learning" -> "Neural Networks"
+}
