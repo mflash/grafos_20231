@@ -20,7 +20,7 @@ class Digraph:
         if value in self.verts:
             return
         self.verts[value] = []
-        selt.totalVerts += 1
+        self.totalVerts += 1
 
 
     def addEdge(self, v1, v2):
