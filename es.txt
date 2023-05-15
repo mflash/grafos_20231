@@ -1,0 +1,15 @@
+Fundamentos de Prog/Alg e Estr Dados I/Prog OO
+Alg e Estr Dados I/Alg e Estr Dados II/Prog Soft Básico/Mod e Proj BD
+Prog OO/Prática AGES II/Proj Arq Soft
+Alg e Estr Dados II/Alg Avançados
+Prog Soft Básico/Sistemas Operacionais
+Org Arq Comp/Sistemas Operacionais
+Sistemas Operacionais/Redes Comp/Prog Paralela
+Redes Comp/Lab Redes
+Lab Redes/Prog Distribuída
+Redes Comp/Segurança Sistemas
+Introd ES/Prática AGES I/Engenh Requisitos
+Lab BD/Mod e Proj BD
+Engenh Requisitos/Fundamentos IHC/Verif Valid Soft I/Proj Arq Soft
+Mod e Proj BD/SGBD/Prática AGES II
+Fundamentos IHC/Design Interação
