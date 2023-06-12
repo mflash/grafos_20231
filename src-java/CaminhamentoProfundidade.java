@@ -52,7 +52,7 @@ public class CaminhamentoProfundidade {
     public static void main(String[] args) {
         In arq = new In(args[0]);
         Graph g = new Graph(arq);
-        CaminhamentoProfundidade cp = new CaminhamentoProfundidade(g, 12);
+        OrdTopologica cp = new OrdTopologica(g, 12);
         for (int v = 0; v < g.V(); v++) {
             System.out.print(v + ": ");
             if (cp.hasPathTo(v)) {
