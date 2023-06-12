@@ -1,3 +1,4 @@
+
 /******************************************************************************
  *  Compilation:  javac EdgeWeightedDigraph.java
  *  Execution:    java EdgeWeightedDigraph digraph.txt
@@ -256,6 +257,8 @@ public class EdgeWeightedDigraph {
         s.append("node [shape = circle];" + NEWLINE);
         for (DirectedEdge e : edges()) {
             String attrib = "label=" + e.weight();
+            if (e.getColor() != null)
+                attrib += ", color=" + e.getColor();
             s.append(e.from() + " -> " + e.to() + " [" + attrib + "]" + NEWLINE);
         }
         s.append("}");
